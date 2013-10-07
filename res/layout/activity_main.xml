@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="4"
+    android:orientation="vertical" xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:weightSum="3"
+        android:orientation="horizontal">
+        
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:contentDescription="@string/Boton"
+            android:scaleType="fitCenter"
+            android:src="@drawable/button_idle" tools:ignore="NestedWeights"/>
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/Boton"
+            android:src="@drawable/button_idle" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"        
+            android:layout_weight="1"            
+        	android:scaleType="fitCenter"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:contentDescription="@string/Boton"
+            android:src="@drawable/button_idle" />
+        
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:weightSum="3"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+            
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/Boton"
+            android:scaleType="fitCenter"
+            android:src="@drawable/button_idle"
+            tools:ignore="NestedWeights" />
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/Boton"
+            android:src="@drawable/button_idle" />
+
+        <ImageButton
+            android:id="@+id/imageButton6"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/Boton"
+            android:src="@drawable/button_idle" />
+        
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:weightSum="3"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+            
+        <ImageButton
+            android:id="@+id/imageButton7"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/Boton"
+            android:scaleType="fitCenter"
+            android:src="@drawable/button_idle"
+            tools:ignore="NestedWeights" />
+
+        <ImageButton
+            android:id="@+id/imageButton8"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/Boton"
+            android:src="@drawable/button_idle" />
+
+        <ImageButton
+            android:id="@+id/imageButton9"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"            
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/Boton"
+            android:src="@drawable/button_idle" />
+            
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+		android:layout_weight="1"
+        android:orientation="horizontal">
+        
+        <TextView
+            android:id="@+id/information"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="@string/Boton"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+        
+    </LinearLayout>
+    
+
+</LinearLayout>
